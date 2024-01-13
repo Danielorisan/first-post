@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'popping',sans-serif;
+}
+
+html, body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: hsl(47, 88%, 63%);
+}
+section {
+    background-color: #fff;
+    width: 60%;
+    display: grid;
+    place-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+.second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#one{
+    margin-top:5% ;
+    width: 25%;
+    border-radius: 2mm;
+    font-size: 15px;
+background-color: rgb(248, 237, 20);
+padding: 5px 10px 5px 10px;
+}
+#two{
+    margin-top:5% ;
+    font-weight: bold;
+}
+#ten{
+    margin-top:5% ;
+    font-weight: lighter;
+}
+.profile {
+    margin-top: 5%;
+    display: flex;
+    gap: 10px;
+}
+#nine{
+    margin-top:5% ;
+    font-size: 14px;
+}
+#five{
+    width: 10%;
+}
+#eight{
+    font-weight: bolder;
+    margin-top: 2.5%;
+}
